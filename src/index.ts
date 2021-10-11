@@ -1,0 +1,9 @@
+const name = "Антон", age = 28, gender = "мужчина";
+
+const sayHi = (name: string, age: number, gender?: string): void => {
+  console.log(`Привет, ${name}. Тебе ${age} лет и ты ${gender}.`)
+}
+
+sayHi(name, age, gender)
+
+export {}
